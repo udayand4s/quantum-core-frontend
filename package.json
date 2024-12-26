@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.2.3",
-    
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotted-map": "^2.2.3",
@@ -23,7 +22,7 @@
     "simplex-noise": "^4.0.3",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
-    "three": "^0.171.0",
+    "three": "^0.171.0"
   
   },
   "devDependencies": {
