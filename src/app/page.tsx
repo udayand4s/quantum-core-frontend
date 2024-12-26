@@ -1,6 +1,6 @@
-import { Header } from "./Components/Header";
-import { HeroBanner } from "./Components/HeroBanner";
-import { WorldMapDemo } from "./Components/WorldMapDemo";
+import { Header } from "./Features/Header";
+import { HeroBanner } from "./Features/HeroBanner";
+import { WorldMapDemo } from "./Features/WorldMapDemo";
 
 export default function Home() {
   return (
