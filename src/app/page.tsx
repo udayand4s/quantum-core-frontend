@@ -1,6 +1,8 @@
+import Link from "next/link";
 import { Header } from "./Features/Header";
 import { HeroBanner } from "./Features/HeroBanner";
 import { WorldMapDemo } from "./Features/WorldMapDemo";
+import { CardDemo } from "./Features/Cards";
 
 export default function Home() {
   return (
@@ -18,12 +20,19 @@ export default function Home() {
         <div className="text-2xl font-medium my-4 text-center">
           Our mission is to empower industries across sectors like healthcare, AI, <br/>
           and finance with unparalleled computational power, driving groundbreaking advancements <br/>
-          and unlocking new possibilities.</div>
+          and unlocking new possibilities. 
+          
+          </div>
         </div>
-    
       </div>
-      <div className="">
+      <div className="my-2">
         <WorldMapDemo />
+      </div>
+      <div>
+        <CardDemo/>
+        <CardDemo/>
+        <CardDemo/>
+        <CardDemo/>
       </div>
     </div>
   );
