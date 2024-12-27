@@ -40,8 +40,10 @@ export default function Home() {
         <HeroBanner />
       </div>
       <div>
-        <div className="text-6xl text-white font-bold my-4 text-center">
+        <div className="text-6xl font-bold my-4 text-center ">
+        <div className="text-white">
         Pioneering the Quantum Future
+        </div>
         <div className="text-2xl font-medium my-4 text-center">
           Our mission is to empower industries across sectors like healthcare, AI, <br/>
           and finance with unparalleled computational power, driving groundbreaking advancements <br/>
@@ -62,7 +64,7 @@ export default function Home() {
         ))}
       </div>
       <div className="p-44 flex-col grid-cols-2">
-        <div className="text-4xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-700">
+        <div className="text-4xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-700">
         QuantumCore is dedicated to making quantum computing accessible and practical. 
         With a focus on sustainability and scalability, 
         we’re enabling industries to solve complex problems with ease.
@@ -70,6 +72,10 @@ export default function Home() {
         <div className="py-12">
         <Component/>
         </div>
+      </div>
+
+      <div>
+        hello
       </div>
       
     </div>

@@ -145,7 +145,7 @@ export function Component() {
         <div className="flex flex-1 flex-col justify-center gap-1 px-6 sm:py-6 py-10">
           <CardTitle>QuantumCore Business Traffic</CardTitle>
           <CardDescription>
-          Enterprise Solution Usage Trend-Last 3 Months
+          Enterprise Solution Usage Trend (Last 3 Months)
           </CardDescription>
         </div>
         <div className="flex">
