@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Header } from "./Features/Header";
 import { HeroBanner } from "./Features/HeroBanner";
-import { WorldMapDemo } from "./Features/WorldMapDemo";
 import { CardDemo } from "./Features/Cards";
 
 export default function Home() {
@@ -49,9 +48,6 @@ export default function Home() {
           
           </div>
         </div>
-      </div>
-      <div className="my-2">
-        <WorldMapDemo />
       </div>
       <div className="container mx-auto px-4 py-4">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
