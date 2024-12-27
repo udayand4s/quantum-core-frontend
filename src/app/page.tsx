@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Header } from "./Features/Header";
 import { HeroBanner } from "./Features/HeroBanner";
 import { CardDemo } from "./Features/Cards";
-import { Component } from "./Features/charts";
+import { Component } from "./Features/chartdemo";
 
 export default function Home() {
 
