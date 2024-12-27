@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Header } from "./Features/Header";
 import { HeroBanner } from "./Features/HeroBanner";
 import { CardDemo } from "./Features/Cards";
+import { Component } from "./Features/charts";
 
 export default function Home() {
 
@@ -60,9 +61,17 @@ export default function Home() {
           />
         ))}
       </div>
-      <div className="p-44">
-        hello
+      <div className="p-44 flex-col grid-cols-2">
+        <div className="text-4xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-700">
+        QuantumCore is dedicated to making quantum computing accessible and practical. 
+        With a focus on sustainability and scalability, 
+        we’re enabling industries to solve complex problems with ease.
+        </div>
+        <div className="py-12">
+        <Component/>
+        </div>
       </div>
+      
     </div>
     </div>
   );
