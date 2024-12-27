@@ -143,7 +143,7 @@ export function Component() {
     <Card>
       <CardHeader className="py-10 flex flex-col items-stretch space-y-0 border-b p-0 sm:flex-row">
         <div className="flex flex-1 flex-col justify-center gap-1 px-6 sm:py-6 py-10">
-          <CardTitle>QuantumCore Business Trafficc</CardTitle>
+          <CardTitle>QuantumCore Business Traffic</CardTitle>
           <CardDescription>
           Enterprise Solution Usage Trend-Last 3 Months
           </CardDescription>
