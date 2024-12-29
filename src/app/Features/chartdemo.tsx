@@ -115,7 +115,7 @@ const chartData = [
 
 const chartConfig = {
   views: {
-    label: "Page Views",
+    label: "API requests made",
   },
   desktop: {
     label: "Desktop",
