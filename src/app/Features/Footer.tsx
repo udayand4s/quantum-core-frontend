@@ -2,6 +2,8 @@ import React from 'react'
 
 export function Footer() {
   return (
-    <div>footer</div>
+    <footer>
+      hello amigos
+    </footer>
   )
 }

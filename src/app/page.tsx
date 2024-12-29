@@ -4,6 +4,8 @@ import { HeroBanner } from "./Features/HeroBanner";
 import { CardDemo } from "./Features/Cards";
 import { Component } from "./Features/chartdemo";
 
+import { Solutions } from "./Features/Solutions";
+
 export default function Home() {
 
   const cardsData = [
@@ -64,7 +66,7 @@ export default function Home() {
         ))}
       </div>
       <div className="p-44 flex-col grid-cols-2">
-        <div className="text-4xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-700">
+        <div className="text-4xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
         QuantumCore is dedicated to making quantum computing accessible and practical. 
         With a focus on sustainability and scalability, 
         we’re enabling industries to solve complex problems with ease.
@@ -75,7 +77,7 @@ export default function Home() {
       </div>
 
       <div>
-        hello
+        <Solutions/>
       </div>
       
     </div>
