@@ -8,7 +8,7 @@ export function Solutions() {
         <div className="text-6xl font-bold">Unlocking Tomorrow,<br/> Today</div>
         <div className="py-2 text-2xl font-medium">Invest in the Future of Computing.<br/> 
           Join QuantumCore to be at the forefront of the next<br/> technological revolution
-          and drive innovation across<br/> your organization."</div>
+          and drive innovation across<br/> your organization.</div>
       </div>
 
       {/* Right Section: Carousel */}

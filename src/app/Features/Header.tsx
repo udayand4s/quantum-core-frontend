@@ -6,7 +6,7 @@ export function Header() {
       {/* Logo Section */}
       <div className="flex items-center space-x-0 ml-0">
         <img
-          src="/logo.webp" // Replace with the actual logo path
+          src="/logo.webp"
           alt="Logo"
           className="h-16 w-auto"
         />
