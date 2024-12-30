@@ -5,6 +5,7 @@ import { CardDemo } from "./Features/Cards";
 import { Component } from "./Features/chartdemo";
 
 import { Solutions } from "./Features/Solutions";
+import { Footer } from "./Features/Footer";
 
 export default function Home() {
 
@@ -33,7 +34,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="h-auto w-screen md:w-auto overflow-x-hidden bg-black flex flex-col items-center">
+    <div className="h-auto w-full overflow-x-hidden bg-black flex flex-col items-center">
       <div className="my-5 text-white">
         <Header />
         
@@ -76,8 +77,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
+      <div className="">
         <Solutions/>
+      </div>
+
+      <div className="pt-24">
+        <Footer/>
       </div>
       
     </div>
